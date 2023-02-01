@@ -1,0 +1,31 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/dist/**": true,
+    "node_modules": true,
+    ".scannerwork": true,
+    "coverage": true,
+    "coverage-e2e": true
+},
+"cSpell.ignoreWords": [
+    "nestjs",
+],
+"editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll": true
+  },
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#4c6b13",
+    "statusBar.background": "#468b1e",
+    "statusBar.debuggingBackground": "#3a4755",
+    "statusBar.noFolderBackground": "#3a4755",
+    "statussBar.prominentBackground": "#3a4755",
+    "statusBar.foreground": "#ebe8e8"
+  },
+}

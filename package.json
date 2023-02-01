@@ -1,6 +1,7 @@
 {
   "name": "kafka-playground",
   "version": "0.0.1",
+  "packageManager": "yarn@3.4.0",
   "description": "",
   "author": "",
   "private": true,
