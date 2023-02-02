@@ -18,7 +18,9 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
-      "@app/environment": ["./src/environments/environment"]
+      "@app/environment": ["./src/environments/environment"],
+      "@app/config/*": ["./src/config/*"],
+      "@app/libs/*": ["src/libs/*"]
     }
   }
 }

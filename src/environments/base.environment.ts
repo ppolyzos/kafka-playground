@@ -13,4 +13,12 @@ export const environment = {
   api: {
     logging: env.API_LOGGING,
   },
+  db: {
+    host: env.DB_HOST,
+    port: env.DB_PORT,
+    user: env.DB_USER,
+    password: env.DB_PASSWORD,
+    name: env.DB_NAME,
+    logging: env.DB_LOGGING,
+  },
 };
