@@ -33,7 +33,7 @@ export class QueryHelper {
         return getQueryBuilder('array', 'in')(
           obj,
           field,
-          value.split(',').map((v) => v.trim())
+          value.split(',').map((v) => v.trim()),
         );
       }
 

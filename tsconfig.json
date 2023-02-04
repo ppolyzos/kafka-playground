@@ -20,7 +20,8 @@
     "paths": {
       "@app/environment": ["./src/environments/environment"],
       "@app/config/*": ["./src/config/*"],
-      "@app/libs/*": ["src/libs/*"]
+      "@app/libs/*": ["src/libs/*"],
+      "@app/shared/*": ["src/shared/*"]
     }
   }
 }

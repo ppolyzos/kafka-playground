@@ -4,6 +4,8 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import * as ormconfig from './config/orm.config';
+import { KafkaModule } from './core/kafka/kafka.module';
+import { DataModule } from './libs/data.module';
 
 const MODULES = [
   ConfigModule.forRoot({
@@ -11,6 +13,8 @@ const MODULES = [
     envFilePath: '.env',
   }),
   TypeOrmModule.forRoot(ormconfig),
+  DataModule,
+  KafkaModule,
 ];
 
 @Module({
